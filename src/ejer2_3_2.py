@@ -13,11 +13,11 @@ def numero_impar(n):
 
 
 def main():
-    #preguntamos por el numero
+    #preguntamos por el numero y comprobamos que sea in entero
     salir = False
     while not salir:
         try:
-            n = int(input("Introduzca su edad: "))
+            n = int(input("Introduzca un númweo entero: "))
             salir = True
         except ValueError:
             print("***Error***")
